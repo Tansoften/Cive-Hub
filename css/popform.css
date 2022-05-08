@@ -1,0 +1,206 @@
+/* body {font-family: Arial, Helvetica, sans-serif;
+} */
+/* * {box-sizing: border-box;
+
+} */
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+#category{
+    position: relative;
+    /* left: 10%; */
+    display: flex;
+    color: #000;
+    padding-left: 5%;
+    height: 85vh;
+    background-color: #f8f6f7;
+    text-align: center;
+    /* align-items: center; */
+    padding-top: 1%;
+}
+
+.open-button {
+    background-color:rgb(3, 133, 126);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 1;
+    /* position: fixed; */
+    bottom: 2px;
+    left: 0px;
+    width: 100px;
+    border: none;
+  
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border: 3px solid #f1f1f1;
+    border-radius: 10px;
+    z-index: 9;
+    height: 81%;
+    /* overflow-y: scroll; */
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 400px;
+    padding: 10px;
+    background-color: rgb(3, 133, 126);
+    border-radius: 10px;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 90%;
+    padding: 10px;
+    margin: 3px 0 15px 0;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  /* When the inputs get focus, do something */
+  /* .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  } */
+  
+  /* Set a style for the save and close button */
+  .form-container  .btn{
+    
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 40%;
+    margin-bottom:10px;
+    opacity: 1;
+    text-align: center;
+    padding-left: 70px;
+    margin-left: 50px;
+    
+  }
+  .form-container .save {
+    background-color: #4CAF50;
+    text-align: center;
+    float: left;
+    /* opacity: 0.8; */
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+    text-align: center;
+    
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  
+  input[type=text] {
+    width: 100px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  .btndiv{
+    display: block;
+    /* background-position: auto; */
+    position: relative;
+    height: 30px;
+    /* top: -20px; */
+    float: left;
+    top: 0;
+    padding-right: 3%;
+    margin-right: 3%;
+  }
+  
+  /* When the input field gets focus, change its width to 100% */
+  /* input[type=text]:focus {
+    width: 100%;
+  } */
+  
+  
+  
+  .input-right{
+  float: left;
+  width: 50%;
+  }
+  /* .input-left{
+  
+  } */
+  .modal-header {
+    padding: 0px 0px;
+    /* background-color: #5cb85c; */
+    color: white;
+    
+  }
+  
+  /* ul,li,a{
+    padding-left: 0px;
+  } */
+
+  .tablediv{
+      padding-top: 0%;
+     
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    justify-content: center;
+    overflow-y: scroll;
+    /* background-color: ; */
+    
+  }
+  th{
+    justify-content: center;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  tr:hover{
+    background-color: hsl(0, 0%, 50%);
+     overflow-y: scroll;
+     overflow: scroll;
+  
+  }
+  
+  /* eidit and delet button layout */
+  .editbtn{
+    padding: 8px 14px;
+    background-color: #138086;
+    cursor: pointer;
+  }
+  .deletebtn{
+    padding: 8px 20px;
+    background-color: #ff6600;
+    cursor: pointer;
+  }
+  #mySearch {
+    width: 100%;
+    height: 9%;
+    font-size: 18px;
+    padding: 2px;
+    border:1px solid #ddd;
+    backface-visibility: visible;
+    border-spacing: 23px solid #aaa;
+    background-color:   hsl(0, 100%, 95%);
+  }
+  

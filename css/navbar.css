@@ -1,0 +1,119 @@
+
+/* navbar */
+a{
+text-decoration: none;
+}
+
+.navside{
+    /* box-sizing: border-box; */
+position: fixed;
+top: 0;
+left: 0;
+width: 92px;
+height: 100vh;
+background-color: #fff;
+padding: 1.5rem 1.5rem 2rem;
+transition: .5s;
+color: black;
+z-index: 100;
+}
+
+.nav{ 
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+overflow: hidden;  
+}
+
+.btn{
+display: grid;
+grid-template-columns: max-content max-content;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 2rem;
+background-color: #fff;
+color: black;
+cursor: pointer;    
+}
+
+.nav_icons{
+font-size: 1.25rem;
+padding: .75rem;
+cursor: pointer;
+}
+.navlink{
+display: grid;
+grid-template-columns: max-content max-content;
+align-items: center;
+column-gap: .75rem;
+padding: .75rem;
+border-radius: .5rem;
+color: darkcyan;
+transition: .3s;
+margin-bottom: 1rem;
+cursor: pointer;
+}
+i img{
+width: 25px;
+
+}
+
+.bottom{
+   
+padding-top: 240px;
+
+}
+
+
+.navlink:hover{
+background-color: #364E4A;
+
+}
+
+.expander{
+width: calc(92px + 9.25rem);
+}
+
+.active{
+background-color: #367066;
+}
+
+.body-pd{
+padding: .1rem 0 0 14rem;
+
+}
+
+/* collapse */
+.collapse{
+    grid-template-columns: 20px max-content 1fr;
+    
+}
+.collapsemenu{
+    display: none;
+    /* padding: .75rem 2.25rem; */
+    text-align: center;
+    padding-top: 0;
+}
+.collapsemenu a{
+   margin-bottom: 30px;
+   padding-bottom: 40px;
+    justify-content: space-between;
+}
+
+.collapselink{
+    justify-self: flex-end;
+    transition: .5s;
+}
+.collapsesublink{
+    color: darkcyan;
+    font-size: 1rem;
+    margin: 20px;
+  
+}
+.collapsesublink:hover{
+    color: #fff;
+}
+
+.showCollapse{
+    display: block;
+}

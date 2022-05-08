@@ -1,0 +1,27 @@
+/* body{
+    background-color: midnightblue;
+} */
+
+#side-nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #138086;
+    width: 15%;
+    height: 100%;
+}
+
+.side-nav-top{
+    /* background-color: red; */
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 15%;
+}
+
+#side-nav-links{
+    height: 85%;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
